@@ -1,6 +1,6 @@
 SUFFIX=HACKED_V1
-HEX_DIR="Output/Hex"
-EEP_DIR="Output/Eep"
+HEX_DIR="Output"
+EEP_DIR="Output"
 BINARY=/home/gassend/temp/avr/avrasm2.exe
 mkdir -p $HEX_DIR
 mkdir -p $EEP_DIR
