@@ -16,7 +16,7 @@ RMDIR Output
 MKDIR Output
 MKDIR Output\Hex
 MKDIR Output\Eep
-SET Revision=REV14_4
+SET Revision=HACKED_V1
 SET AtmelPath=C:\Atmel\avrassembler
 rem SET AtmelPath="C:\Dev\Atmel\AVR Tools\AvrAssembler2"
 
@@ -120,7 +120,7 @@ call:compile2
 goto :eof
 
 :compile2
-@ECHO compiling %BESC%  
+@ECHO compiling %BESC%
 @ECHO. >> MakeHex_Result.txt
 @ECHO ********************************************************************  >> MakeHex_Result.txt
 @ECHO %BESC%  >> MakeHex_Result.txt
